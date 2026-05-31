@@ -32,8 +32,8 @@ def handler(event: dict, context) -> dict:
             "body": {"error": "Заполните имя и контакт"},
         }
 
-    smtp_host = os.environ["SMTP_HOST"]
-    smtp_port = int(os.environ["SMTP_PORT"])
+    smtp_host = os.environ.get("SMTP_HOST", "mail.nic.ru")
+    smtp_port = int(os.environ.get("SMTP_PORT", "465"))
     smtp_user = os.environ.get("SMTP_USER", "info@polygrad.net")
     smtp_password = os.environ["SMTP_PASSWORD"]
     to_email = "info@polygrad.net"
