@@ -32,9 +32,9 @@ export const NEWS = [
 ];
 
 export const STATS = [
-  { value: "5 000+", label: "позиций в каталоге" },
-  { value: "1 200+", label: "клиентов по России" },
-  { value: "15 лет", label: "на рынке" },
+  { value: "550+", label: "позиций в каталоге" },
+  { value: "380+", label: "клиентов по России" },
+  { value: "18 лет", label: "на рынке" },
   { value: "24/7", label: "поддержка" },
 ];
 
