@@ -105,7 +105,7 @@ export default function HeroSection({ onScrollTo }: HeroSectionProps) {
             <div>
               <span className="text-brand-cyan font-medium text-sm uppercase tracking-widest">Ассортимент</span>
               <h2 className="font-oswald text-4xl sm:text-5xl font-bold text-brand-navy mt-2">
-                КАТАЛОГ<br /><span className="text-brand-blue/50">ПРОДУКЦИИ</span>
+                КАТАЛОГ<br /><span className="text-brand-blue/50">МАТЕРИАЛОВ</span>
               </h2>
             </div>
             <p className="text-muted-foreground max-w-sm">
