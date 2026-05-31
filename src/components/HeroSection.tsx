@@ -39,9 +39,8 @@ export default function HeroSection({ onScrollTo }: HeroSectionProps) {
             </div>
 
             <h1 className="font-oswald text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
-              РАСХОДНИКИ<br />
-              <span className="text-brand-accent">ДЛЯ ПОЛИГРАФИИ</span><br />
-              <span className="text-white/70 text-4xl sm:text-5xl">ОПТОМ</span>
+              РАСХОДНИКИ И БУМАГА<br />
+              <span className="text-brand-accent">ДЛЯ ПОЛИГРАФИИ</span>
             </h1>
 
             <p className="text-white/70 text-lg sm:text-xl leading-relaxed mb-8 max-w-xl">
