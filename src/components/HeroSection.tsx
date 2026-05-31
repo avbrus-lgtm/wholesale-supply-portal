@@ -44,7 +44,7 @@ export default function HeroSection({ onScrollTo }: HeroSectionProps) {
             </h1>
 
             <p className="text-white/70 text-lg sm:text-xl leading-relaxed mb-8 max-w-xl">
-              Бумага, краски, плёнки, картон — более 5 000 позиций со склада в Москве.
+              Бумага, краски, полиграфические средства, картон — более 550 позиций со склада в Москве и Нижнем Новгороде.
               Доставка по всей России. Персональные условия для типографий.
             </p>
 
