@@ -34,7 +34,7 @@ def handler(event: dict, context) -> dict:
 
     smtp_host = os.environ["SMTP_HOST"]
     smtp_port = int(os.environ["SMTP_PORT"])
-    smtp_user = os.environ["SMTP_USER"]
+    smtp_user = os.environ.get("SMTP_USER", "info@polygrad.net")
     smtp_password = os.environ["SMTP_PASSWORD"]
     to_email = "info@polygrad.net"
 
