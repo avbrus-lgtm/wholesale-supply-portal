@@ -36,7 +36,7 @@ def handler(event: dict, context) -> dict:
     smtp_port = int(os.environ["SMTP_PORT"])
     smtp_user = os.environ["SMTP_USER"]
     smtp_password = os.environ["SMTP_PASSWORD"]
-    to_email = "polygrad@yandex.ru"
+    to_email = "info@polygrad.net"
 
     html = f"""
     <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
