@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 import { STATS, CATALOG_CATEGORIES, SERVICES } from "@/lib/siteData";
 
@@ -5,7 +6,12 @@ interface HeroSectionProps {
   onScrollTo: (id: string) => void;
 }
 
+const CATEGORY_ROUTES: Record<string, string> = {
+  "Краски и лаки": "/catalog/kraski-i-laki",
+};
+
 export default function HeroSection({ onScrollTo }: HeroSectionProps) {
+  const navigate = useNavigate();
   return (
     <>
       {/* HERO */}
@@ -119,6 +125,7 @@ export default function HeroSection({ onScrollTo }: HeroSectionProps) {
                 key={i}
                 className="anim-hidden card-hover group rounded-2xl overflow-hidden border border-brand-navy/8 bg-white cursor-pointer"
                 style={{ animationDelay: `${i * 0.08}s` }}
+                onClick={() => { const route = CATEGORY_ROUTES[cat.title]; if (route) navigate(route); }}
               >
                 <div
                   className="relative h-40 flex items-end p-6"
