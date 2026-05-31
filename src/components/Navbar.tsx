@@ -14,12 +14,7 @@ export default function Navbar({ scrolled, menuOpen, activeSection, onScrollTo, 
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "bg-brand-navy/95 backdrop-blur-md shadow-2xl" : "bg-transparent"}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-16 md:h-20">
         <button onClick={() => onScrollTo("home")} className="flex items-center gap-2">
-          <div className="w-9 h-9 bg-brand-accent rounded-lg flex items-center justify-center">
-            <Icon name="Printer" size={20} className="text-brand-navy" />
-          </div>
-          <span className="font-oswald text-xl font-bold text-white tracking-wide">
-            ПОЛИ<span className="text-brand-accent">ГРАД</span>
-          </span>
+          <img src="https://cdn.poehali.dev/projects/64573d10-61c4-42bd-9171-9b2052c78b55/bucket/92dfc863-0bd7-4784-ad83-08f8f2015244.png" alt="Полиград" className="h-10 w-auto" />
         </button>
 
         <nav className="hidden md:flex items-center gap-8">
