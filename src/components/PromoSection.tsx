@@ -207,7 +207,7 @@ export default function PromoSection({ countdown, onScrollTo }: PromoSectionProp
                     <input
                       value={name}
                       onChange={(e) => setName(e.target.value)}
-                      className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
+                      className="w-full bg-[#0B1A3B] border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
                       placeholder="Название компании или ваше имя"
                     />
                   </div>
@@ -216,7 +216,7 @@ export default function PromoSection({ countdown, onScrollTo }: PromoSectionProp
                     <input
                       value={contact}
                       onChange={(e) => setContact(e.target.value)}
-                      className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
+                      className="w-full bg-[#0B1A3B] border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
                       placeholder="+7 (___) ___-__-__ или mail@example.com"
                     />
                   </div>
@@ -226,7 +226,7 @@ export default function PromoSection({ countdown, onScrollTo }: PromoSectionProp
                       rows={4}
                       value={message}
                       onChange={(e) => setMessage(e.target.value)}
-                      className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm resize-none"
+                      className="w-full bg-[#0B1A3B] border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm resize-none"
                       placeholder="Что вас интересует? Укажите нужные материалы и объёмы"
                     />
                   </div>
