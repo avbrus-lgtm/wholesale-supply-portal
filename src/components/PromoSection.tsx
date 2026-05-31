@@ -247,8 +247,8 @@ export default function PromoSection({ countdown, onScrollTo }: PromoSectionProp
 
             <div className="anim-hidden space-y-5">
               {[
-                { icon: "Phone", title: "Телефон", lines: ["+7 (495) 000-00-00", "+7 (800) 000-00-00 (бесплатно)"] },
-                { icon: "Mail", title: "Email", lines: ["info@polygraphopt.ru", "sales@polygraphopt.ru"] },
+                { icon: "Phone", title: "Телефон", lines: ["+7 (999) 911-16-65 (Россия и СНГ)", "+7 (930) 707-55-80 (заказ в Нижнем Новгороде)"] },
+                { icon: "Mail", title: "Email", lines: ["info@polygrad.net", "seliverstov_75@mail.ru (заказы в Нижнем Новгороде)"] },
                 { icon: "MapPin", title: "Адрес склада", lines: ["г. Москва, ул. Складская, д. 1", "Пн–Пт: 9:00–18:00"] },
                 { icon: "Clock", title: "Поддержка", lines: ["Онлайн-чат: круглосуточно", "Телефон: 9:00–20:00 (МСК)"] },
               ].map((c, i) => (
