@@ -202,25 +202,34 @@ export default function PromoSection({ countdown, onScrollTo }: PromoSectionProp
                 </div>
               ) : (
                 <div className="space-y-4">
-                  <input
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                    className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
-                    placeholder="Название компании или ваше имя"
-                  />
-                  <input
-                    value={contact}
-                    onChange={(e) => setContact(e.target.value)}
-                    className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
-                    placeholder="Телефон или e-mail"
-                  />
-                  <textarea
-                    rows={4}
-                    value={message}
-                    onChange={(e) => setMessage(e.target.value)}
-                    className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm resize-none"
-                    placeholder="Что вас интересует? Укажите нужные материалы и объёмы"
-                  />
+                  <div>
+                    <label className="block text-white/60 text-xs uppercase tracking-widest mb-1.5">Компания / Имя</label>
+                    <input
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
+                      className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
+                      placeholder="Название компании или ваше имя"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/60 text-xs uppercase tracking-widest mb-1.5">Телефон или e-mail</label>
+                    <input
+                      value={contact}
+                      onChange={(e) => setContact(e.target.value)}
+                      className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm"
+                      placeholder="+7 (___) ___-__-__ или mail@example.com"
+                    />
+                  </div>
+                  <div>
+                    <label className="block text-white/60 text-xs uppercase tracking-widest mb-1.5">Сообщение</label>
+                    <textarea
+                      rows={4}
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
+                      className="w-full bg-white/8 border border-white/15 rounded-xl px-5 py-3.5 text-white placeholder:text-white/35 focus:outline-none focus:border-brand-accent transition-colors text-sm resize-none"
+                      placeholder="Что вас интересует? Укажите нужные материалы и объёмы"
+                    />
+                  </div>
                   {status === "error" && (
                     <p className="text-red-400 text-sm text-center">Ошибка отправки. Попробуйте ещё раз.</p>
                   )}
