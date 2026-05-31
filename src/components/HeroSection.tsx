@@ -35,7 +35,7 @@ export default function HeroSection({ onScrollTo }: HeroSectionProps) {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-brand-accent/15 border border-brand-accent/30 rounded-full px-4 py-1.5 mb-6">
               <div className="w-2 h-2 rounded-full bg-brand-accent animate-pulse" />
-              <span className="text-brand-accent text-sm font-medium tracking-wide">Оптовые поставки · Работаем с 2009 года</span>
+              <span className="text-brand-accent text-sm font-medium tracking-wide">Оперативные поставки · Работаем с 2008 года</span>
             </div>
 
             <h1 className="font-oswald text-5xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6">
