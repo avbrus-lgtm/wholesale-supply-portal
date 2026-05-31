@@ -10,8 +10,8 @@ export const NAV = [
 ];
 
 export const CATALOG_CATEGORIES = [
-  { icon: "FileText", title: "Офсетная бумага", desc: "80–300 г/м², форматы A0–A4", count: "120+ позиций", color: "#0F2557" },
-  { icon: "Layers", title: "Мелованная бумага", desc: "Глянец, матт, шёлк", count: "85 позиций", color: "#1A3A7C" },
+  { icon: "FileText", title: "Офсетные пластины, фототехническая пленка и химия для их обработки", desc: "Термальные и CtcP пластины, фототехническая пленка, проявители", count: "120+ позиций", color: "#0F2557" },
+  { icon: "Layers", title: "Краски и лаки", desc: "Офсетная листовая краска, ВД лаки, УФ лаки", count: "85 позиций", color: "#1A3A7C" },
   { icon: "Printer", title: "Картон и упаковка", desc: "Хром-эрзац, дуплекс, трёхслойный", count: "60 позиций", color: "#234A9E" },
   { icon: "Palette", title: "Краски и лаки", desc: "CMYK, Pantone, ВД-лак", count: "200+ позиций", color: "#0F2557" },
   { icon: "Wind", title: "Плёнки", desc: "ПВХ, полипропилен, полиэстер", count: "45 позиций", color: "#1A3A7C" },
