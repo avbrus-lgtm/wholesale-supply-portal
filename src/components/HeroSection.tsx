@@ -128,8 +128,7 @@ export default function HeroSection({ onScrollTo }: HeroSectionProps) {
                     <Icon name={cat.icon} size={26} className="text-brand-accent" />
                   </div>
                   <div>
-                    <span className="text-xs text-white/50 uppercase tracking-widest">{cat.count}</span>
-                    <h3 className="font-oswald text-xl font-bold text-white mt-1">{cat.title}</h3>
+                    <h3 className="font-oswald text-xl font-bold text-white">{cat.title}</h3>
                   </div>
                 </div>
                 <div className="p-5 flex items-center justify-between">
