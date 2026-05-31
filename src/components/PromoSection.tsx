@@ -249,7 +249,7 @@ export default function PromoSection({ countdown, onScrollTo }: PromoSectionProp
               {[
                 { icon: "Phone", title: "Телефон", lines: ["+7 (999) 911-16-65 (Россия и СНГ)", "+7 (930) 707-55-80 (заказ в Нижнем Новгороде)"] },
                 { icon: "Mail", title: "Email", lines: ["info@polygrad.net", "seliverstov_75@mail.ru (заказы в Нижнем Новгороде)"] },
-                { icon: "MapPin", title: "Адрес склада", lines: ["г. Москва, ул. Складская, д. 1", "Пн–Пт: 9:00–18:00"] },
+                { icon: "MapPin", title: "Адрес склада", lines: ["г. Москва, ул. 1-я Фрезерная, д.2/1, стр.5", "г. Нижний Новгород, ул. Нартова, 2В", "Пн–Пт: 9:00–18:00"] },
                 { icon: "Clock", title: "Поддержка", lines: ["Онлайн-чат: круглосуточно", "Телефон: 9:00–20:00 (МСК)"] },
               ].map((c, i) => (
                 <div key={i} className="flex items-start gap-5 p-5 rounded-2xl bg-white/5 border border-white/10">
